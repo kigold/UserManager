@@ -11,12 +11,12 @@ Ensure Docker is installed on your machine.
 and also install all the dependencies for the node app, and then start the node app
 * Open your browser and enter this url `http://localhost:3000/users` this list should be empty sine the database is blank
 * Open Postman and create users using this url
-POST /users
-INPUT:
+    ```POST /users
+    INPUT:
 
-name: John Doe
-email: john.doe@gmail.com
-password: johndoe
+    name: John Doe
+    email: john.doe@gmail.com
+    password: johndoe```
 * Add a couple of users as stated above, then revist `http://localhost:3000/users`, now you should find the users you just entered in the previous step.
 For more indepth documentation on the API, check out
 `https://github.com/BolajiOlajide/UserManager` from where i forked the node app.
