@@ -16,10 +16,10 @@ and also install all the dependencies for the node app, and then start the node 
 
     name: John Doe
     email: john.doe@gmail.com
-    password: johndoe```
+    password: johndoe
 * Add a couple of users as stated above, then revist `http://localhost:3000/users`, now you should find the users you just entered in the previous step.
 For more indepth documentation on the API, check out
 `https://github.com/BolajiOlajide/UserManager` from where i forked the node app.
 
 ### End Process
-To stop the process at anytime, type this command in the termina `stop.sh`, this would stop all process and close the containers.
+To stop the process at anytime, type this command in the terminal `stop.sh`, this would stop all process and close the containers.
